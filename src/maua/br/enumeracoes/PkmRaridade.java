@@ -29,6 +29,7 @@ public enum PkmRaridade {
         public String toString() { return "Pokémon do tipo lendário";}
 
         }
+
     }
 
 
