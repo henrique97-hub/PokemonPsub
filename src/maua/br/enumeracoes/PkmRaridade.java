@@ -28,7 +28,12 @@ public enum PkmRaridade {
         @Override
         public String toString() { return "Pokémon do tipo lendário";}
 
-        }
+        },
+    ERRO
+      {
+        @Override
+        public String toString() { return "Algo esta errado";}
+    };
 
     }
 
