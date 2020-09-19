@@ -15,6 +15,7 @@ private List<Carta> Listas_de_cartas;
         this.Listas_de_cartas.add(carta);
     }
 
+
     @Override
     public String toString() {
         return "ListaCartas{" +
