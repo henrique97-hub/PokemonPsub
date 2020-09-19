@@ -10,7 +10,7 @@ public class TesteCarta {
         Carta carta1 = new Carta("teste","ex14-28","Venusaur","EX","Crystal Guardians");
         carta1.setRaridade(PkmRaridade.RARO);
         System.out.println("carta"+carta1);
-        
+
         carta1.setRaridade(PkmRaridade.MUITO_RARO);
         System.out.println("carta"+carta1);
 
