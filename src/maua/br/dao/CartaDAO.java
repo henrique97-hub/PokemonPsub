@@ -50,7 +50,7 @@ public class CartaDAO implements DAO<Carta> {
     @Override
     public void update(Carta carta) {
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement("UPDATE pokemon SET url =?, id = ?, nome = ?, serie = ?, colecao =?;"); // dps que arrumar a key do sql, colocar raridade como paramentro
+            PreparedStatement preparedStatement = connection.prepareStatement("UPDATE pokemon SET url =?, id = ?, nome = ?, serie = ?, colecao =? WHERE nome = ?;"); // dps que arrumar a key do sql, colocar raridade como paramentro
             preparedStatement.setString(1, carta.getUrl());
             preparedStatement.setString(2,carta.getId());
             preparedStatement.setString(3,carta.getNome());
@@ -67,11 +67,29 @@ public class CartaDAO implements DAO<Carta> {
 
     @Override
     public void delete(Carta carta) {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM pokemon WHERE nome = ?");
+            preparedStatement.setString(1, carta.getNome());
+            preparedStatement.executeLargeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
     }
 
     @Override
     public void create(Carta carta) {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO pokemon(url, id, nome, serie, colecao) VALUES (?,?,?,?,?)"); // dps que arrumar a key do sql, colocar raridade como paramentro
+            preparedStatement.setString(1, carta.getUrl());
+            preparedStatement.setString(2,carta.getId());
+            preparedStatement.setString(3,carta.getNome());
+            // preparedStatement.setString(4, carta.getRaridade());
+            preparedStatement.setString(4,carta.getSerie());
+            preparedStatement.setString(5,carta.getColecao());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
     }
 }
