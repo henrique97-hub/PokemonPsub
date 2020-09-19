@@ -2,6 +2,7 @@ package maua.br.parser;
 import org.json.JSONObject;
 import maua.br.model.Carta;
 
+// Recebe uma carta e converte para Json
 public class CartaParser {
     public static JSONObject toJson(Carta carta){
         JSONObject json = new JSONObject();
@@ -13,6 +14,7 @@ public class CartaParser {
         json.put("colecao",carta.getColecao());
         return json;
     }
+    // Recebe Json e converte para carta
 
     public static Carta fromJson(JSONObject json){
         Carta carta = new Carta(

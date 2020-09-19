@@ -10,6 +10,7 @@ public class Carta {
     private String serie;
     private String colecao;
 
+    // Construtor: parametros iniciais da carta
     public Carta(String url, String id, String nome, String serie, String colecao) {
         this.url = url;
         this.id = id;
@@ -57,6 +58,7 @@ public class Carta {
     public PkmRaridade getRaridade() {
         return raridade;
     }
+
 
     public void setRaridade(PkmRaridade raridade) {
         this.raridade = raridade;

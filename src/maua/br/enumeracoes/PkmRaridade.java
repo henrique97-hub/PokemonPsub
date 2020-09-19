@@ -1,5 +1,6 @@
 package maua.br.enumeracoes;
 
+// Significado do Enum
 public enum PkmRaridade {
     COMUM {
     @Override

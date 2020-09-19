@@ -6,6 +6,7 @@ import java.util.List;
 public class ListaCartas{
 private List<Carta> Listas_de_cartas;
 
+    // Construtor que instancia o arraylist, assim que ele for criado
     public ListaCartas() { this.Listas_de_cartas = new ArrayList<>(); }
 
 
