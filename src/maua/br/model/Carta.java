@@ -18,7 +18,17 @@ public class Carta {
         this.serie = serie;
         this.colecao = colecao; }
 
-
+    @Override
+    public String toString() {
+        return "Carta{" +
+                "url='" + url + '\'' +
+                ", id='" + id + '\'' +
+                ", nome='" + nome + '\'' +
+                ", raridade=" + raridade +
+                ", serie='" + serie + '\'' +
+                ", colecao='" + colecao + '\'' +
+                '}';
+    }
 
     public String getUrl() {
         return url;

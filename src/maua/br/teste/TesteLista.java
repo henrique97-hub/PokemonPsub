@@ -7,6 +7,8 @@ import maua.br.enumeracoes.PkmRaridade;
 public class TesteLista {
     public static void main(String[] args) {
         ListaCartas lista = new ListaCartas();
+        System.out.println(lista);
+
         Carta carta1 = new Carta("teste","asx","aaa","bbb","xxx");
         Carta carta2 = new Carta("tese","as","aa","bbb","sss");
 
@@ -15,9 +17,10 @@ public class TesteLista {
         lista.add(carta1);
         lista.add(carta2);
 
-        for(Carta carta: lista.getLista()){
-            System.out.println(carta.toString());
-        }
+       // for(Carta carta: lista.getLista()){
+         //   System.out.println(lista);
+      //  }
+        System.out.println(lista);
 
 
 
