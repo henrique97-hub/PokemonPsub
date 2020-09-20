@@ -1,6 +1,6 @@
 package maua.br.parser;
 
-import maua.br.model.Carta;
+
 import maua.br.model.ListaCartas;
 import org.json.JSONArray;
 import org.json.JSONObject;
