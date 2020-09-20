@@ -1,4 +1,4 @@
-package maua.br;
+package maua.br.javaFX;
 
 public class Controller {
 }
