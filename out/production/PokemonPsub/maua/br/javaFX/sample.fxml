@@ -22,7 +22,7 @@
             <ImageView fx:id="imgFoto" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
             <Button mnemonicParsing="false" onAction="#previewPhoto" text="Ver Foto" />
             <Button mnemonicParsing="false" onAction="#cadastrar" text="Cadastrar" />
-            <Button mnemonicParsing="false" onAction="#editar" text="Alterar" />
+            <Button mnemonicParsing="false" text="Alterar" />
          </children>
       </VBox>
    </children>
