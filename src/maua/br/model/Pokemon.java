@@ -47,4 +47,28 @@ public class Pokemon {
                 ", colecao='" + colecao + '\'' +
                 '}';
     }
+
+    public void setUrlFoto(String urlFoto) {
+        this.urlFoto = urlFoto;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setRaridade(String raridade) {
+        this.raridade = raridade;
+    }
+
+    public void setSerie(String serie) {
+        this.serie = serie;
+    }
+
+    public void setColecao(String colecao) {
+        this.colecao = colecao;
+    }
 }

@@ -1,4 +1,4 @@
-package maua.br.javaFX;
+package maua.br.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXML;
@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class MainJX extends Application {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         // Metodo que inicializa a aplicação
         launch();
     }
@@ -19,7 +19,7 @@ public class MainJX extends Application {
         // Carrega um arquivo para poder usar dentro da aplicação
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         // Titulo da aplicação
-        primaryStage.setTitle("Hello World JavaFX");
+        primaryStage.setTitle("Pokemons JavaFX");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
 
