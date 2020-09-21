@@ -3,7 +3,16 @@ package maua.br.model;
 
 import maua.br.view.MainJX;
 
-public class Run {
+/**
+ * Play - Classe que inicializa o JavaFX
+ *
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
+public class Play {
     public static void main(String[] args) {
         MainJX main1 = new MainJX();
 

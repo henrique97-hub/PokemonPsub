@@ -1,6 +1,15 @@
 package maua.br.enumeracoes;
 
-// Significado do Enum
+/**
+ * PkmRaridade - essa Classe é uma enumeração que possui os 6 tipos das cartas de Pokémons,
+ * juntamente com os seus significados
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
+
 public enum PkmRaridade {
     COMUM {
     @Override

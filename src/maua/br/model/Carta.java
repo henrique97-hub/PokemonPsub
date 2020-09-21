@@ -2,6 +2,17 @@ package maua.br.model;
 
 import maua.br.enumeracoes.PkmRaridade;
 
+/**
+ * Carta - essa classe possui os dados que cada carta pokemon irá conter
+ * Ela possui um Contrutor que define os paramentros iniciais da carta e,
+ * possui também metodos especiais para atribuir ou pegar atributos delas.
+ *
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
 public class Carta {
     private String url;
     private String id;

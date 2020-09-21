@@ -3,6 +3,15 @@ package maua.br.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ListaCartas - Classe que contém uma lista com todas as cartas criadas
+ *
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
 public class ListaCartas{
 private List<Carta> Listas_de_cartas;
 

@@ -5,6 +5,15 @@ import maua.br.model.Carta;
 
 import java.sql.*;
 
+/**
+ * Aplicacao - Classe de testes do programa, para detectar e previnir erros no código
+ *
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
 public class Aplicacao {
     public void run(){
         try {

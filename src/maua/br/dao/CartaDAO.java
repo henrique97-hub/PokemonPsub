@@ -7,6 +7,16 @@ import maua.br.parser.StatusParser;
 import java.sql.*;
 import java.util.List;
 
+/**
+ * Classe CartDAO, possui metodos para criar, atualizar e deletar, para facilitar esses processos
+ * quando necessário
+ *
+   * @author Henrique Silva Godoy - RA: 16.01147-3
+   * @author Lucas Menezes - RA: 16.00683-6
+   *
+   * @since 21/09/2020
+   * @version 1.0
+ */
 public class CartaDAO implements DAO<Carta> {
     private Connection connection;
     private String myDBConnectionString = "jdbc:sqlite:pokemon.db";

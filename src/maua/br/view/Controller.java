@@ -9,6 +9,18 @@ import maua.br.model.Pokemon;
 
 import java.awt.*;
 
+/**
+ * Controller - Classe que define os comandos dos elementos da interface gráfica
+ * cadastrar() - Método que permite que novos pokémons sejam cadastrados no sistema;
+ * editar() - Método que permite que os atributos ta tabela sejam editados
+ * deletar() - Método que possibilita deletar, caso haja necessidade
+ *
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
 public class Controller {
     @FXML
     private TextField txtUrl, txtId, txtNome, txtRaridade, txtSerie, txtColecao;

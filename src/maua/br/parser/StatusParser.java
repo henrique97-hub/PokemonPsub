@@ -3,6 +3,9 @@ package maua.br.parser;
 import jdk.net.SocketFlow;
 import maua.br.enumeracoes.PkmRaridade;
 
+/**
+ * StatusParser - Classe responsável por retornar o tipo de cada enum, através dos parses
+ */
 public class StatusParser {
     public static PkmRaridade toStatus(String status){
         if(status.equals("comum")) return PkmRaridade.COMUM;

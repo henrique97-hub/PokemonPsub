@@ -1,5 +1,14 @@
 package maua.br.model;
 
+/**
+ * Pokemon - Essa classe contém os dados que serão utilizados na interface grafica (JavaFx)
+ *
+ * @author Henrique Silva Godoy - RA: 16.01147-3
+ * @author Lucas Menezes - RA: 16.00683-6
+ *
+ * @since 21/09/2020
+ * @version 1.0
+ */
 public class Pokemon {
     private String urlFoto, id, nome, raridade, serie, colecao;
 
